@@ -157,8 +157,8 @@ main{
     }
     .container .influencer .influencer-content img{
         margin-top: 2rem;
-        margin-left: 1rem;
-        width: 80%;
+        margin-left: 7.5rem;
+        width: 70%;
     }
 }
 @media screen and (max-width:768px) {
@@ -174,8 +174,8 @@ main{
     }
     .container .influencer .influencer-content img{
         margin-top: 2rem;
-        margin-left: 1rem;
-        width: 80%;
+        margin-left: 6.5rem;
+        width: 70%;
     }
 }
 @media screen and (max-width:468px) {
