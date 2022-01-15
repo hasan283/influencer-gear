@@ -195,11 +195,11 @@ main{
     width: 80%;
     margin: auto;
     padding-top: 3rem;
-}
-.logo-container .logo{
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 15px;
+}
+.logo-container .logo{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     column-gap: 3rem;
