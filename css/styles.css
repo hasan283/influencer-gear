@@ -213,6 +213,9 @@ main{
 
 /* logo responsive section  */
 @media screen and (max-width:468px) {
+    .logo-container{
+        width: 100%;
+    }
     .logo-container .logo{
         grid-template-columns: repeat(4,1fr);
     }
@@ -223,6 +226,9 @@ main{
     }
 }
 @media screen and (max-width:768px) {
+    .logo-container{
+        width: 100%;
+    }
     .logo-container .logo{
         grid-template-columns: repeat(4,1fr);
     }
@@ -233,6 +239,9 @@ main{
     }
 }
 @media screen and (max-width:992px) {
+    .logo-container{
+        width: 100%;
+    }
     .logo-container .logo{
         grid-template-columns: repeat(4,1fr);
     }
