@@ -136,7 +136,7 @@ main{
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	transition: .6s ease-in-out;
     cursor: pointer;
 }
 .container .influencer .influencer-content img:hover{
@@ -366,7 +366,7 @@ main{
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	transition: 1s ease-in-out;
 }
 .product-place .place-container .place-content img:hover{
     -webkit-transform: scale(1.2);
