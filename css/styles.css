@@ -59,6 +59,27 @@ ul li{
 @media screen and (max-width:468px) {
     .header{
         width: 100%;
+        padding-top: 1.5rem;
+    }
+    .header nav{
+        flex-direction: column;
+        height: 60px;
+    }
+}
+@media screen and (max-width:768px) {
+    .header{
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+    .header nav{
+        flex-direction: column;
+        height: 60px;
+    }
+}
+@media screen and (max-width:992px) {
+    .header{
+        width: 100%;
+        padding-top: 1.5rem;
     }
     .header nav{
         flex-direction: column;
@@ -146,5 +167,78 @@ main{
         margin-top: 2rem;
         margin-left: 1rem;
         width: 90%;
+    }
+}
+@media screen and (max-width:992px) {
+    .container{
+        width: 100%;
+        padding: 2rem;
+    }
+    .container .influencer .influencer-content h1{
+        font-size: 40px;
+    }
+    .container .influencer{
+        grid-template-columns: 1fr;
+    }
+    .container .influencer .influencer-content img{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        width: 90%;
+    }
+}
+
+
+/* Logo Section  */
+/* Logo Section  */
+/* Logo Section  */
+.logo-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.logo-container .logo{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 3rem;
+}
+
+.logo-container .logo .logo-photo img{
+    margin-top: 10px;
+    width: 80px;
+    height: 60px;
+}
+
+/* logo responsive section  */
+@media screen and (max-width:468px) {
+    .logo-container .logo{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .logo-container .logo .logo-photo img{
+        margin-top: 10px;
+        width: 60px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:768px) {
+    .logo-container .logo{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .logo-container .logo .logo-photo img{
+        margin-top: 10px;
+        width: 60px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:992px) {
+    .logo-container .logo{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .logo-container .logo .logo-photo img{
+        margin-top: 10px;
+        width: 70px;
+        height: 45px;
     }
 }
