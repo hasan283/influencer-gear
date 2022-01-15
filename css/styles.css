@@ -263,11 +263,13 @@ main{
 .collection-container{
     width: 80%;
     margin: auto;
-    padding-top: 7rem;
+    padding-top: 5rem;
+    position: relative;
 }
 .collection-container h1{
     text-align: center;
     padding-bottom: 2rem;
+    padding-top: 2rem;
     color: #3a3a3a;
 }
 .collection-container .collection{
@@ -305,6 +307,14 @@ main{
     line-height: 1.5;
     color: #3a3a3a;
 }
+.see-more{
+    position: absolute;
+    right: 30px;
+    margin-top: 3rem;
+    font-size: 18px;
+    color: #e02c6d;
+    font-weight: 600;
+}
 
 /* Collection Responsive section  */
 
@@ -324,4 +334,106 @@ main{
     .collection-container .collection{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+/* Product Place Section  */
+/* Product Place Section  */
+/* Product Place Section  */
+.product-place{
+    width: 80%;
+    margin-top: 6rem;
+    margin: auto;
+    padding-top: 10rem;
+}
+.product-place .place-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5rem;
+}
+.product-place .place-container .place-content img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.product-place .place-container .place-content h1{
+    color: #3a3a3a;
+    font-size: 40px;
+    padding-top: 1.5rem;
+}
+.product-place .place-container .place-content p{
+    color: #3a3a3a;
+    font-size: 18px;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.product-place .place-container .place-content a{
+    background: #e02c6d;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+}
+/* Product Place Responsive Section */
+@media screen and (max-width:992px) {
+    .product-place{
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 6rem;
+    }
+    .product-place .place-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width:768px) {
+    .product-place{
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 6rem;
+    }
+    .product-place .place-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width:468px) {
+    .product-place{
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 6rem;
+    }
+    .product-place .place-container .place-content h1{
+        font-size: 30px;
+    }
+    .product-place .place-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+/* Footer Section  */
+/* Footer Section  */
+/* Footer Section  */
+/* Footer Section  */
+footer{
+    background-color: #0a0826;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+    line-height: 1.5;
+}
+footer h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+footer p{
+    font-size: 12px;
+}
+footer .icon{
+    margin-top: 1rem;
+}
+footer .icon i{
+    background: #35334b;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 1rem;
 }
