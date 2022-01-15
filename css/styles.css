@@ -1,0 +1,150 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,500;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Recursive:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+/* Default Css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/* Website use css  */
+
+
+/* Header Section  */
+/* Header Section  */
+/* Header Section  */
+.header{
+    width: 90%;
+    margin: auto;
+}
+.header nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav .nav-content h3{
+    font-size: 20px;
+    color: #3a3a3a;
+}
+.header nav .nav-content ul{
+    display: flex;
+}
+.header nav .nav-content ul li{
+    padding: 10px;
+}
+.header nav .nav-content ul li a{
+    font-size: 15px;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+.header nav .nav-content ul li i{
+    font-size: 18px;
+}
+/* Header Menu responsive section  */
+@media screen and (max-width:468px) {
+    .header{
+        width: 100%;
+    }
+    .header nav{
+        flex-direction: column;
+        height: 60px;
+    }
+}
+
+/* Nav Bottom Section  */
+/* Nav Bottom Section  */
+/* Nav Bottom Section  */
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Influencer section  */
+/* Influencer section  */
+/* Influencer section  */
+/* Influencer section  */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container .influencer{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.container .influencer .influencer-content h1{
+    font-size: 45px;
+    color: #3a3a3a;
+}
+.container .influencer .influencer-content p{
+    font-size: 18px;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.container .influencer .influencer-content .influencer-button{
+    background: #e02c6d;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.influencer-content .influencer-button i{
+    padding-left: 7px;
+}
+.container .influencer .influencer-content img{
+    width: 60%;
+    margin-left: 7rem;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    padding: 20px;
+}
+/* Influencer responsive section  */
+@media screen and (max-width:468px) {
+    .container{
+        width: 100%;
+        padding: 2rem;
+    }
+    .container .influencer .influencer-content h1{
+        font-size: 30px;
+    }
+    .container .influencer{
+        grid-template-columns: 1fr;
+    }
+    .container .influencer .influencer-content img{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        width: 90%;
+    }
+}
+@media screen and (max-width:768px) {
+    .container{
+        width: 100%;
+        padding: 2rem;
+    }
+    .container .influencer .influencer-content h1{
+        font-size: 40px;
+    }
+    .container .influencer{
+        grid-template-columns: 1fr;
+    }
+    .container .influencer .influencer-content img{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        width: 90%;
+    }
+}
