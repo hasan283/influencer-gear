@@ -133,6 +133,15 @@ main{
     border: 2px solid #ddd;
     border-radius: 50%;
     padding: 20px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.container .influencer .influencer-content img:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 /* Influencer responsive section  */
 @media screen and (max-width:992px) {
@@ -149,7 +158,7 @@ main{
     .container .influencer .influencer-content img{
         margin-top: 2rem;
         margin-left: 1rem;
-        width: 90%;
+        width: 80%;
     }
 }
 @media screen and (max-width:768px) {
@@ -166,7 +175,7 @@ main{
     .container .influencer .influencer-content img{
         margin-top: 2rem;
         margin-left: 1rem;
-        width: 90%;
+        width: 80%;
     }
 }
 @media screen and (max-width:468px) {
@@ -354,6 +363,14 @@ main{
     width: 100%;
     height: 250px;
     border-radius: 10px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.product-place .place-container .place-content img:hover{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 .product-place .place-container .place-content h1{
     color: #3a3a3a;
